@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HPS_Mobile]" allow-return-values="true">
+  <test name="ReportsDemo(failed)">
+    <classes>
+      <class name="com.cigniti.heartLandDemo.SettleBatch">
+        <methods>
+          <include name="testCredit_Sale"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cigniti.heartLandDemo.SettleBatch -->
+      <class name="com.cigniti.heartLandDemo.CreditSale">
+        <methods>
+          <include name="testCredit_Sale"/>
+        </methods>
+      </class> <!-- com.cigniti.heartLandDemo.CreditSale -->
+      <class name="com.cigniti.heartLandDemo.RefundMotoEcommerce">
+        <methods>
+          <include name="Refund_Scenario"/>
+        </methods>
+      </class> <!-- com.cigniti.heartLandDemo.RefundMotoEcommerce -->
+      <class name="com.cigniti.heartLandDemo.AddDeleteUser">
+        <methods>
+          <include name="Add_User"/>
+        </methods>
+      </class> <!-- com.cigniti.heartLandDemo.AddDeleteUser -->
+    </classes>
+  </test> <!-- ReportsDemo(failed) -->
+</suite> <!-- Failed suite [HPS_Mobile] -->

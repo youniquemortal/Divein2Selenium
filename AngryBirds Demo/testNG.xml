@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HPS_Mobile" allow-return-values="true">
+	
+	
+	<test name="ReportsDemo" preserve-order="true">	
+			
+	<classes>
+	
+	<class name="com.cigniti.heartLandDemo.SettleBatch"/>
+	<class name="com.cigniti.heartLandDemo.CreditSale"/>
+    
+	</classes>		
+				
+	</test>	
+	
+</suite>
+
+
+
+	
